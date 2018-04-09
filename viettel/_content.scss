@@ -1,0 +1,116 @@
+.sanphamvadichvu{
+	margin-top: 0;
+	p{margin: 0}
+	.panel{
+		transition: 0.3s;
+		&:hover{
+			transform: scale(1.05);
+		}
+	}
+	.btn-xemthem{
+		border: 2px solid $green;
+		background-color: #fff;
+		color: $green;
+		border-radius: 0;
+		transition: 0.5s;
+		&:hover{
+			background-color: $green;
+			color: #fff;
+		}
+	}
+}
+.goiinternet{
+	p{margin: 0}
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f7f7f7;
+	.noidung{
+		.ngoac{
+			color: $green;
+		}
+	}
+}
+.lienhetuvan{
+	background-color: #4DA7A2;
+	display: flex;
+	justify-content:center;
+}
+.tintuc{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	.panel{
+		border-radius: 0;
+		box-shadow: none;
+		margin-bottom: 50px;
+		transition: 0.3s;
+		&:hover{
+			transform: scale(1.05);
+		}
+		.panel-body{
+			padding: 0;
+		}
+	}
+	.img{
+		position: relative;
+		width: 100%;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		img{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			height: 100%;
+			width: auto;
+			-webkit-transform: translate(-50%,-50%);
+			-ms-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);		
+		}
+	}
+	.noidung{
+		p{margin: 0;color: #000}
+		.ngay{
+			color: #999;
+		}
+	}
+	.tincon{
+		.con{
+			padding: 15px;
+			background-color: #f7f7f7;
+			.panel{border: none;}
+			.panel-body{
+				background-color: #f7f7f7;
+				transition: 0.3s;
+				&:hover{
+					transform: scale(1.05);
+				}
+				h4{
+					a{
+						color: #000!important;
+						transition: 0.5s;
+						&:hover{
+							color: $green !important;
+						}
+					}
+				}
+				.img{
+					position: relative;
+					width: 100%;
+					height: 150px;
+					float: left;
+					overflow: hidden;
+					img{
+						position: absolute;
+						left: 50%;
+						top: 50%;
+						height: 100%;
+						width: auto;
+						-webkit-transform: translate(-50%,-50%);
+						-ms-transform: translate(-50%,-50%);
+						transform: translate(-50%,-50%);		
+					}
+				}
+			}
+		}
+	}
+}

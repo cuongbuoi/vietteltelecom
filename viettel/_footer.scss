@@ -1,0 +1,28 @@
+#footer{
+    color: #fff !important;
+        .footer-content{
+            background: url("../img/bg-footer.png") no-repeat ;
+            background-size: cover;
+            h5,p,a{
+                color: #fff;
+            }
+        }
+        .nhap-mail{
+        p{
+            font-style: italic;
+            color: #fff;
+        }
+        .btn-sendmail{
+            border: none;
+            margin: 0;
+            width: 7em;
+            height: 2.6em;
+            background-color: $orange;
+            color: #000;
+            transition: all 0.3s;
+            &:hover{
+                background-color: $green+20;
+            }
+        }
+    }
+}

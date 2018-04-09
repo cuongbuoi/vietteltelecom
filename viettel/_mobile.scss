@@ -1,0 +1,72 @@
+.click-dropdown{
+	display: none;
+}
+@media screen and (max-width: 1024px){
+	#page-content{
+		margin-top: 150px;
+	}
+}
+@media screen and (max-width: 768px){
+	.click-dropdown{
+		display: inline-block;
+		border: none !important;
+		background-color: #fff !important;
+		margin-top: -40px;
+		position: absolute;
+		right:0;
+	}
+	#page-content{
+		margin-top: 30px;
+	}
+	.fa-angle-down{
+	        display: none;
+	    }
+	.slogan{
+		display: none;
+	}
+	.slogan2{
+		width: 100%;
+		.img{
+			width: 100% !important;
+			float: none;
+			position: absolute;
+			#hinh1{
+				display: none;
+			}
+			#hinh2{
+				display: block !important;
+
+			}
+		}
+		.lienhe{
+			display: none !important; 
+			.email{
+				display: flex;
+
+				p{margin:0}
+
+			}
+		}
+	}
+	.lienhetuvan{
+		display: none !important;
+	}
+	.lienhemobile{
+		display: flex !important;
+		justify-content:center;
+		.email{
+			margin: 0 50px 0 50px;
+		}
+	}
+}
+@media screen and (max-width: 480px){
+	.lienhemobile{
+		.email{
+			margin: 0;
+		}
+		.email:first-child{
+			display: none !important;
+		}
+	}
+
+}

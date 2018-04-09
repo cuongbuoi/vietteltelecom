@@ -1,0 +1,338 @@
+.slogan {
+  width: 100%;
+  padding-top: 10px; }
+  .slogan .img {
+    width: 300px;
+    float: left; }
+    .slogan .img #hinh2 {
+      display: none;
+      width: 15%; }
+    .slogan .img .lienhemobile {
+      display: none; }
+      .slogan .img .lienhemobile .email {
+        display: flex; }
+        .slogan .img .lienhemobile .email p {
+          margin: 0; }
+        .slogan .img .lienhemobile .email .icon {
+          width: 50px;
+          height: 70px;
+          padding-top: 30px !important; }
+          .slogan .img .lienhemobile .email .icon span {
+            border: 2px solid #00928e;
+            color: #00928e;
+            padding: 10px 13px;
+            border-radius: 50%;
+            text-align: center; }
+        .slogan .img .lienhemobile .email .noidung {
+          padding-top: 15px; }
+  .slogan .lienhe {
+    float: right;
+    display: flex; }
+    .slogan .lienhe .email {
+      display: flex; }
+      .slogan .lienhe .email p {
+        margin: 0; }
+      .slogan .lienhe .email .icon {
+        width: 50px;
+        height: 70px;
+        padding-top: 30px; }
+        .slogan .lienhe .email .icon span {
+          border: 2px solid #00928e;
+          color: #00928e;
+          padding: 10px 13px;
+          border-radius: 50%;
+          text-align: center; }
+      .slogan .lienhe .email .noidung {
+        padding-top: 15px; }
+
+header {
+  line-height: 50px !important;
+  height: 50px !important; }
+  header .slogan2 {
+    width: 100%;
+    padding-top: 0; }
+    header .slogan2 .img {
+      width: 300px;
+      float: left; }
+      header .slogan2 .img #hinh2 {
+        display: none;
+        width: 15%; }
+      header .slogan2 .img .lienhemobile {
+        display: none; }
+        header .slogan2 .img .lienhemobile .email {
+          display: flex; }
+          header .slogan2 .img .lienhemobile .email p {
+            margin: 0; }
+          header .slogan2 .img .lienhemobile .email .icon {
+            width: 50px;
+            height: 70px;
+            padding-top: 15px !important; }
+            header .slogan2 .img .lienhemobile .email .icon span {
+              border: 2px solid #00928e;
+              color: #00928e;
+              padding: 10px 13px;
+              border-radius: 50%;
+              text-align: center; }
+          header .slogan2 .img .lienhemobile .email .noidung {
+            padding-top: 15px; }
+    header .slogan2 .lienhe {
+      float: right;
+      display: flex; }
+      header .slogan2 .lienhe .email {
+        display: flex; }
+        header .slogan2 .lienhe .email p {
+          margin: 0; }
+        header .slogan2 .lienhe .email .icon {
+          width: 50px;
+          height: 70px; }
+          header .slogan2 .lienhe .email .icon span {
+            border: 2px solid #00928e;
+            color: #00928e;
+            padding: 10px 13px;
+            border-radius: 50%;
+            text-align: center; }
+        header .slogan2 .lienhe .email .noidung {
+          padding-top: 15px; }
+  header nav ul li a {
+    color: #00928e !important; }
+
+#footer {
+  color: #fff !important; }
+  #footer .footer-content {
+    background: url("../img/bg-footer.png") no-repeat;
+    background-size: cover; }
+    #footer .footer-content h5, #footer .footer-content p, #footer .footer-content a {
+      color: #fff; }
+  #footer .nhap-mail p {
+    font-style: italic;
+    color: #fff; }
+  #footer .nhap-mail .btn-sendmail {
+    border: none;
+    margin: 0;
+    width: 7em;
+    height: 2.6em;
+    background-color: #ed953c;
+    color: #000;
+    transition: all 0.3s; }
+    #footer .nhap-mail .btn-sendmail:hover {
+      background-color: #14a6a2; }
+
+.click-dropdown {
+  display: none; }
+
+@media screen and (max-width: 1024px) {
+  #page-content {
+    margin-top: 150px; } }
+@media screen and (max-width: 768px) {
+  .click-dropdown {
+    display: inline-block;
+    border: none !important;
+    background-color: #fff !important;
+    margin-top: -40px;
+    position: absolute;
+    right: 0; }
+
+  #page-content {
+    margin-top: 30px; }
+
+  .fa-angle-down {
+    display: none; }
+
+  .slogan {
+    display: none; }
+
+  .slogan2 {
+    width: 100%; }
+    .slogan2 .img {
+      width: 100% !important;
+      float: none;
+      position: absolute; }
+      .slogan2 .img #hinh1 {
+        display: none; }
+      .slogan2 .img #hinh2 {
+        display: block !important; }
+    .slogan2 .lienhe {
+      display: none !important; }
+      .slogan2 .lienhe .email {
+        display: flex; }
+        .slogan2 .lienhe .email p {
+          margin: 0; }
+
+  .lienhetuvan {
+    display: none !important; }
+
+  .lienhemobile {
+    display: flex !important;
+    justify-content: center; }
+    .lienhemobile .email {
+      margin: 0 50px 0 50px; } }
+@media screen and (max-width: 480px) {
+  .lienhemobile .email {
+    margin: 0; }
+  .lienhemobile .email:first-child {
+    display: none !important; } }
+.sanphamvadichvu {
+  margin-top: 0; }
+  .sanphamvadichvu p {
+    margin: 0; }
+  .sanphamvadichvu .panel {
+    transition: 0.3s; }
+    .sanphamvadichvu .panel:hover {
+      transform: scale(1.05); }
+  .sanphamvadichvu .btn-xemthem {
+    border: 2px solid #00928e;
+    background-color: #fff;
+    color: #00928e;
+    border-radius: 0;
+    transition: 0.5s; }
+    .sanphamvadichvu .btn-xemthem:hover {
+      background-color: #00928e;
+      color: #fff; }
+
+.goiinternet {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f7f7f7; }
+  .goiinternet p {
+    margin: 0; }
+  .goiinternet .noidung .ngoac {
+    color: #00928e; }
+
+.lienhetuvan {
+  background-color: #4DA7A2;
+  display: flex;
+  justify-content: center; }
+
+.tintuc {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .tintuc .panel {
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 50px;
+    transition: 0.3s; }
+    .tintuc .panel:hover {
+      transform: scale(1.05); }
+    .tintuc .panel .panel-body {
+      padding: 0; }
+  .tintuc .img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    float: left;
+    overflow: hidden; }
+    .tintuc .img img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      height: 100%;
+      width: auto;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+  .tintuc .noidung p {
+    margin: 0;
+    color: #000; }
+  .tintuc .noidung .ngay {
+    color: #999; }
+  .tintuc .tincon .con {
+    padding: 15px;
+    background-color: #f7f7f7; }
+    .tintuc .tincon .con .panel {
+      border: none; }
+    .tintuc .tincon .con .panel-body {
+      background-color: #f7f7f7;
+      transition: 0.3s; }
+      .tintuc .tincon .con .panel-body:hover {
+        transform: scale(1.05); }
+      .tintuc .tincon .con .panel-body h4 a {
+        color: #000 !important;
+        transition: 0.5s; }
+        .tintuc .tincon .con .panel-body h4 a:hover {
+          color: #00928e !important; }
+      .tintuc .tincon .con .panel-body .img {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        float: left;
+        overflow: hidden; }
+        .tintuc .tincon .con .panel-body .img img {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          height: 100%;
+          width: auto;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.tintucrieng .cot1 {
+  border-right: 1px solid #ddd; }
+.tintucrieng .bangtin {
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 30px;
+  transition: 0.3s; }
+  .tintucrieng .bangtin p, .tintucrieng .bangtin .title {
+    margin: 0; }
+  .tintucrieng .bangtin:hover {
+    transform: scale(1.05); }
+  .tintucrieng .bangtin .img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    float: left;
+    overflow: hidden; }
+    .tintucrieng .bangtin .img img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      height: 100%;
+      width: auto;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+  .tintucrieng .bangtin .social-icons {
+    margin-top: -20px;
+    position: absolute;
+    background-color: #fff; }
+.tintucrieng .tincon {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  margin-top: 20px; }
+  .tintucrieng .tincon .img {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    float: left;
+    overflow: hidden; }
+    .tintucrieng .tincon .img img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      height: 100%;
+      width: auto;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+  .tintucrieng .tincon .noidung {
+    padding-left: 5px;
+    padding-top: 0; }
+    .tintucrieng .tincon .noidung p {
+      margin: 0; }
+    .tintucrieng .tincon .noidung a {
+      margin-top: 0; }
+.tintucrieng .chitiettintuc .noidung {
+  border-bottom: 2px solid #999;
+  margin-bottom: 30px; }
+  .tintucrieng .chitiettintuc .noidung img {
+    width: 100%; }
+  .tintucrieng .chitiettintuc .noidung .social-icons {
+    position: absolute;
+    background-color: #fff;
+    margin-top: -18px; }
+.tintucrieng .chitiettintuc .tag span {
+  border: 1px solid #ddd;
+  padding: 4px;
+  margin: 3px; }
+
+/*# sourceMappingURL=custom.css.map */
